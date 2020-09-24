@@ -19,5 +19,37 @@ footer {
 }
 
 .page {
-  margin: 10px;
+  margin: auto;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-image {
+  display: flex;
+  justify-content: left;
+  width: auto;
+}
+
+.home-text-field {
+  padding: 10px;
+
+
+}
+
+.list-group-item {
+  background-color: #def2f1;
+}
+
+.recipes {
+  flex-direction: column;
+}
+
+.suggestions {
+  flex-direction: column;
+}
+
+.recipe-field {
+  padding: 10px;
 }
