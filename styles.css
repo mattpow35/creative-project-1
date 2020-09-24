@@ -1,0 +1,23 @@
+body {
+  background-color: #def2f1;
+}
+
+
+nav {
+  height: 60px;
+}
+
+.content {
+  height: calc(100vh - 120px);
+}
+
+footer {
+  height: 60px;
+  background-color: #3aafa9;
+  color: white;
+  position: static;
+}
+
+.page {
+  margin: 10px;
+}
