@@ -2,7 +2,6 @@ body {
   background-color: #def2f1;
 }
 
-
 nav {
   height: 60px;
 }
@@ -34,8 +33,6 @@ footer {
 
 .home-text-field {
   padding: 10px;
-
-
 }
 
 .list-group-item {
@@ -52,4 +49,28 @@ footer {
 
 .recipe-field {
   padding: 10px;
+}
+
+.recipe-page {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.instructions {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: blue;
+}
+
+.recipe-title {
+  display: flex;
+  justify-content: center;
+
+}
+
+.return-button {
+  padding: 10px;
+  background-color: blue;
 }
