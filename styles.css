@@ -21,18 +21,20 @@ footer {
   margin: auto;
   display: flex;
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .home-image {
   display: flex;
   justify-content: left;
-  width: auto;
+  width: 50%;
 }
 
 .home-text-field {
   padding: 10px;
+  justify-content: left;
+  width: 50%;
 }
 
 .list-group-item {
@@ -116,4 +118,15 @@ footer {
   .recipe-image {
     width: 100%;
   }
+
+  .page {
+    flex-direction: column;
+  }
+  .home-image {
+    width: 100%;
+  }
+  .home-text-field {
+    width: 100%;
+  }
+
 }
